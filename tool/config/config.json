@@ -1,0 +1,14 @@
+{
+  "id": "",
+  "cultural_heritage_object": {
+    "title": "",
+    "inventory_number": "",
+    "institution_owner": "MZM"
+  },
+  "digitization": {
+    "date": "YYYY-MM-DD",
+    "operator_name": "",
+    "equipment": "GOM Scan 1",
+    "software": "ZEISS Inspect"
+  }
+}
