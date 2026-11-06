@@ -1,0 +1,21 @@
+[
+  {
+    "date": "2026-01-01",
+    "sensor": "GOM Scan 1",
+    "sensor_serial_number": "000000",
+    "measuring_volume": "MV100 (100 x 65 x 70 mm)",
+    "camera_lens_mm": 25.0,
+    "calibration_object": "EXAMPLE-CALIBRATION-PLATE",
+    "certificate": "EXAMPLE-CERTIFICATE",
+    "certification_date": "2026-01-01",
+    "certified_lengths_mm": [
+      180.0,
+      180.0
+    ],
+    "calibration_temperature_c": 20.0,
+    "calibration_deviation_px": 0.03,
+    "calibration_deviation_optimized_px": 0.02,
+    "calibration_deviation_limit_px": 0.115,
+    "result": "OK"
+  }
+]

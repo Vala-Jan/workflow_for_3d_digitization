@@ -4,11 +4,14 @@
 Tento pracovní prostor slouží k archivaci 3D digitalizátů pořízených
 skenerem GOM / ZEISS Scan 1 a zpracovaných v ZEISS Inspect. Pro každý objekt
 vytvoří samostatný archivní balíček s pevnou strukturou složek a kontrolními
-součty SHA-256. Metadata odpovídají metadatovému standardu MZM pro 3D data
+součty SHA-256. Struktura metadat je můj vlastní návrh pro 3D data
 (viz část 5). Verze workflow: 1.0.0 (viz část 10).
 
 Balíček obsahuje mesh TAK, JAK BYL NAMĚŘEN (díry nejsou zalepené), určený pro
 podrobné studium povrchu, např. traseologii.
+
+Jde o osobní pracovní nástroj, který mi usnadňuje práci. Nejde o oficiální
+nástroj ani metadatový standard žádné instituce.
 
 
 1. SLOŽKY
@@ -92,8 +95,8 @@ podrobné studium povrchu, např. traseologii.
   `-- 03_METADATA/<id>_metadata.json   metadata vč. kontrolních součtů dat
 
 
-5. METADATA.JSON (metadatový standard MZM pro 3D data)
-------------------------------------------------------
+5. METADATA.JSON (struktura metadat)
+------------------------------------
   id                              ID objektu
   workflow_version                verze tohoto nástroje (část 10)
   cultural_heritage_object        z config.json
@@ -198,7 +201,7 @@ podrobné studium povrchu, např. traseologii.
       skenování.
     - Balíček <id>_<ROK> se složkami 01_MESH, 02_PARADATA, 03_METADATA;
       id objektu v názvech všech souborů.
-    - Metadata podle metadatového standardu MZM pro 3D data; rozbor meshe
+    - Metadata podle vlastní struktury pro 3D data; rozbor meshe
       (rozměry, rozlišení, plocha, díry) a parametry polygonizace se
       načítají automaticky.
     - SHA-256 meshe a paradat v metadatech; příkaz verify.
